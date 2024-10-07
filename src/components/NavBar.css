@@ -1,0 +1,46 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  width: 100%; /* Full width */
+  background-color: #333; /* Background color for navbar */
+  display: flex;
+  justify-content: center; /* Centers the items inside */
+  align-items: center; /* Aligns the items vertically */
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: space-around; /* Distribute items evenly */
+  width: 100%; /* Make the list span full width */
+  list-style: none;
+  padding: 10px 0; /* Padding around the navbar */
+}
+
+.navbar-item a {
+  color: white; /* Text color */
+  text-decoration: none;
+  padding: 10px 20px; /* Add padding for clickable area */
+  font-size: 1rem; /* Text size */
+}
+
+.navbar-item a:hover {
+  background-color: #575757; /* Background change on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Header styling if needed */
+header {
+  background-color: #444; /* Header background */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+  
